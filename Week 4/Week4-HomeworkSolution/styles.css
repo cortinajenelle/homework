@@ -1,0 +1,32 @@
+body {
+  background-color: #FFFFFF;
+}
+
+.nav-bar {
+  background-color: #000000;
+  padding: 1em;
+  color: #A3E7AE;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+nav > ul > li {
+  border: solid 1px;
+  padding: .33em;
+  display: inline-block;
+}
+
+footer {
+  padding: .5em;
+  background-color: #287429;
+}
+
+.facilitation-tools {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+#creativity-benefits {
+  color: #000000;
+  font-size: 20px;
+}
