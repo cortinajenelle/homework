@@ -2,11 +2,11 @@
 
 // create a list of user 3's to-dos
 
-const newArray = data.filter(task => {
-    return task.userId == 3;
-});
+const user3Todos = data.filter(task => task.userId === 3);
 
 // then find the number of user 3's incomplete tasks
 
-const incompleteTasks = data.filter(task => task.title == true);
-console.log(incompleteTasks);
+const incompleteTasks = user3Todos.filter(task => task.completed === false);
+const numberOfIncompleteTasks = incompleteTasks.length;
+
+console.log(numberOfIncompleteTasks);
